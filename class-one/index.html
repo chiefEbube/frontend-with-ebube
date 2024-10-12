@@ -4,24 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://kit.fontawesome.com/13573bea6b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 
     <header>
+        <div class="container">
         <nav>
-            <div>
+            <div class="first-col">
                 <img src="./images/logo.png" alt="">
                 <strong>SOLE MART</strong>
             </div>
 
-            <div>
+            <div class="second-col">
                 <ul>
                     <li><a href="">Product Listing page</a></li>
                     <li><a href="">Cart</a></li>
                     <li><a href="">Checkout</a></li>
                 </ul>
 
-                <div>
+                <div class="search-col">
                     <div>
                         <input type="text" placeholder="What are you looking for?">
                         <button>+</button>
@@ -29,7 +32,7 @@
 
                     <div>
                         <img src="./images/cart.png" alt="">
-                        <p>3</p>
+                        <!-- <p>3</p> -->
                     </div>
                 </div>
             </div>
@@ -44,12 +47,17 @@
                 <img src="./images/first-shoe.png" alt="">
             </div>
         </div>
+    </div>
+
     </header>
 
     <main>
-        <h3>BROWSE OUR COLLECTIONS</h3>
+        <div class="container">
+            <h3>BROWSE OUR COLLECTIONS</h3>
+        </div>
 
         <div>
+            <div class="container"> 
             <div class="shoes">
                 <div class="shoe">
                     <div class="shoe-image">
@@ -151,32 +159,41 @@
                 <button>7</button>
                 <button>Next</button>
             </div>
+            </div>
         </div>
 
         <div class="Testimonials">
-            <div class="avatar"><img src="./images/3d_avatar_21.png" alt=""></div>
-            <div class="avatar-text">
-                <p>I recently purchased a pair of sneakers from SoleMart, and I couldn't be happier with my experience. The website was easy to navigate, and I found exactly what I was looking for within minutes.
-                </p>
-                <p>Joshua Kim</p>
+            <div class="container">
+                <div class="avatar"><img src="./images/3d_avatar_21.png" alt=""></div>
+                <div class="avatar-text">
+                    <p>I recently purchased a pair of sneakers from SoleMart, and I couldn't be happier with my experience. The website was easy to navigate, and I found exactly what I was looking for within minutes.
+                    </p>
+                    <p>Joshua Kim</p>
+                </div>
             </div>
         </div>
     </main>
 
     <footer>
-        <div>
-            <small>Copyright @2024 Solemart Nig.</small>
-            <small>All rights reserved</small>
-            <div class="footer-icons">
-                <a href="+"></a>
-                <a href="+"></a>
-                <a href="+"></a>
-                <a href="+"></a>
+        <div class="container">
+            <div>
+                <small>Copyright @2024 Solemart Nig.</small>
+                <small>All rights reserved</small>
+                <div class="footer-icons">
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-dribbble"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                </div>
             </div>
-        </div>
-        <div>
-            <p>Stay up to date</p>
-            <input type="email">
+
+            <div>
+                <p>Stay up to date</p>
+                <div>
+                    <input type="email">
+                    <span><i class="fa-regular fa-paper-plane"></i></span>                
+                </div>
+            </div>
         </div>
     </footer>
 
